@@ -1,0 +1,26 @@
+{
+  "name": "evalu-meeting-chaincode",
+  "version": "1.0.0",
+  "description": "Tender committee meeting contract.",
+  "main": "index.js",
+  "scripts": {
+    "start": "fabric-chaincode-node start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paza-team/evaluation-meeting-chaincode.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Martin Mutua mutua@tujointech.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/paza-team/evaluation-meeting-chaincode/issues"
+  },
+  "homepage": "https://github.com/paza-team/evaluation-meeting-chaincode#readme",
+  "dependencies": {
+    "fabric-contract-api": "^2.2.1",
+    "fabric-shim": "^2.2.1"
+  }
+}
